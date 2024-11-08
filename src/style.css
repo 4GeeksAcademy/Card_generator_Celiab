@@ -5,8 +5,22 @@ body {
 }
 
 .suit {
+  padding: 10px;
 }
 
 #bottom-suit {
   transform: rotate(180deg);
+  margin-right: 5px;
+}
+
+#upper-suit {
+  margin-left: 5px;
+}
+#card {
+  border-radius: 25px;
+  border: 2px solid #474a42;
+  background-color: rgb(249, 251, 252);
+  box-shadow: 10px 10px 5px rgb(65, 65, 65);
+  font-size: 65px;
+  font-family: sans-serif;
 }
